@@ -1,0 +1,4660 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "dogBreed",
+        "type": "ContentType",
+        "createdAt": "2023-06-30T02:48:58.188Z",
+        "updatedAt": "2023-07-05T05:04:42.597Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2023-07-05T05:04:42.597Z",
+        "firstPublishedAt": "2023-06-30T02:48:58.548Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 11,
+        "version": 22,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "dogBreed",
+      "description": "A description of a dog breed",
+      "fields": [
+        {
+          "id": "name",
+          "name": "name",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "goodWithChildren",
+          "name": "good_with_children",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "goodWithOtherDogs",
+          "name": "good_with_other_dogs",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shedding",
+          "name": "shedding",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "grooming",
+          "name": "grooming",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "drooling",
+          "name": "drooling",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "coatLength",
+          "name": "coat_length",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "goodWithStrangers",
+          "name": "good_with_strangers",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "playfulness",
+          "name": "playfulness",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "protectiveness",
+          "name": "protectiveness",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "trainability",
+          "name": "trainability",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "energy",
+          "name": "energy",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "barking",
+          "name": "barking",
+          "type": "Integer",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "maxLifeExpentancy",
+          "name": "max_life_expentancy",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "minLifeExpectancy",
+          "name": "min_life_expectancy",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "maxHeightMale",
+          "name": "max_height_male",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "maxHeightFemale",
+          "name": "max_height_female",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "maxWeightMale",
+          "name": "max_weight_male",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "maxWeightFemale",
+          "name": "max_weight_female",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "minHeightMale",
+          "name": "min_height_male",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "minHeightFemale",
+          "name": "min_height_female",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "minWeightMale",
+          "name": "min_weight_male",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "minWeightFemale",
+          "name": "min_weight_female",
+          "type": "Number",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "imageLink",
+          "name": "imageLink",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "origin",
+          "name": "origin",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "story",
+          "name": "story",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "person",
+        "type": "ContentType",
+        "createdAt": "2023-06-30T20:40:06.530Z",
+        "updatedAt": "2023-07-02T04:28:17.595Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-07-02T04:28:17.595Z",
+        "firstPublishedAt": "2023-06-30T20:40:06.948Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Person",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "company",
+          "name": "Company",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "shortBio",
+          "name": "Short Bio",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "email",
+          "name": "Email",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "phone",
+          "name": "Phone",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "facebook",
+          "name": "Facebook",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "twitter",
+          "name": "Twitter",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "github",
+          "name": "Github",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "blogPost",
+        "type": "ContentType",
+        "createdAt": "2023-06-30T20:40:06.551Z",
+        "updatedAt": "2023-07-02T04:28:18.255Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-07-02T04:28:18.255Z",
+        "firstPublishedAt": "2023-06-30T20:40:07.451Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Blog Post",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroImage",
+          "name": "Hero Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "body",
+          "name": "Body",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "linkContentType": [
+                "person"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Entry"
+        },
+        {
+          "id": "publishDate",
+          "name": "Publish Date",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "tags",
+          "name": "Tags",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+              {
+                "in": [
+                  "general",
+                  "javascript",
+                  "static-sites"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "k4flm4b70f8s",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 17,
+        "createdAt": "2023-06-30T02:48:58.695Z",
+        "createdBy": {
+          "sys": {
+            "id": "69hCsJ59c0KN0hgJGLzuOy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-07-05T05:04:44.445Z",
+        "updatedBy": {
+          "sys": {
+            "id": "69hCsJ59c0KN0hgJGLzuOy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "dogBreed",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "goodWithChildren",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "goodWithOtherDogs",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "shedding",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "grooming",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "drooling",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "coatLength",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "goodWithStrangers",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "playfulness",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "protectiveness",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "trainability",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "energy",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "barking",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "maxLifeExpentancy",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "minLifeExpectancy",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "maxHeightMale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "maxHeightFemale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "maxWeightMale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "maxWeightFemale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "minHeightMale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "minHeightFemale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "minWeightMale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "minWeightFemale",
+          "widgetId": "numberEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imageLink",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "origin",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "story",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "k4flm4b70f8s",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-06-30T20:40:07.159Z",
+        "createdBy": {
+          "sys": {
+            "id": "69hCsJ59c0KN0hgJGLzuOy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-07-02T04:28:19.095Z",
+        "updatedBy": {
+          "sys": {
+            "id": "69hCsJ59c0KN0hgJGLzuOy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "person",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "company",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "shortBio",
+          "widgetId": "richTextEditor"
+        },
+        {
+          "fieldId": "email",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "phone",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "facebook",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "twitter",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "github",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "k4flm4b70f8s",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2023-06-30T20:40:07.647Z",
+        "createdBy": {
+          "sys": {
+            "id": "69hCsJ59c0KN0hgJGLzuOy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2023-07-02T04:28:19.226Z",
+        "updatedBy": {
+          "sys": {
+            "id": "69hCsJ59c0KN0hgJGLzuOy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blogPost",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor"
+        },
+        {
+          "fieldId": "heroImage",
+          "widgetId": "assetLinkEditor"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "richTextEditor"
+        },
+        {
+          "fieldId": "body",
+          "widgetId": "richTextEditor"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "entryLinkEditor"
+        },
+        {
+          "fieldId": "publishDate",
+          "settings": {
+            "ampm": "24",
+            "format": "timeZ"
+          },
+          "widgetId": "datePicker"
+        },
+        {
+          "fieldId": "tags",
+          "widgetId": "tagEditor"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "6MBrLs57gx4lu59h4Vd4jq",
+        "type": "Entry",
+        "createdAt": "2023-06-30T17:38:25.068Z",
+        "updatedAt": "2023-07-05T05:05:29.574Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2023-07-05T05:05:29.574Z",
+        "firstPublishedAt": "2023-06-30T18:28:10.155Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Alaskan Malamute"
+        },
+        "goodWithChildren": {
+          "en-US": 3
+        },
+        "goodWithOtherDogs": {
+          "en-US": 3
+        },
+        "shedding": {
+          "en-US": 3
+        },
+        "grooming": {
+          "en-US": 3
+        },
+        "drooling": {
+          "en-US": 1
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 3
+        },
+        "playfulness": {
+          "en-US": 3
+        },
+        "protectiveness": {
+          "en-US": 4
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 4
+        },
+        "barking": {
+          "en-US": 3
+        },
+        "maxLifeExpentancy": {
+          "en-US": 14
+        },
+        "minLifeExpectancy": {
+          "en-US": 10
+        },
+        "maxHeightMale": {
+          "en-US": 25
+        },
+        "maxHeightFemale": {
+          "en-US": 25
+        },
+        "maxWeightMale": {
+          "en-US": 85
+        },
+        "maxWeightFemale": {
+          "en-US": 75
+        },
+        "minHeightMale": {
+          "en-US": 25
+        },
+        "minHeightFemale": {
+          "en-US": 25
+        },
+        "minWeightMale": {
+          "en-US": 85
+        },
+        "minWeightFemale": {
+          "en-US": 75
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/alaskan_malamute.jpg"
+        },
+        "origin": {
+          "en-US": "Kotzebue Sound, Alaska"
+        },
+        "story": {
+          "en-US": "Alaskan Malamutes were born for the Winter Olympics. And if the sport includes solving puzzles along the way, Mals are totally in. These super-smart and super-active dogs do not like being bored. They’ll swipe left if you’re not entertaining enough. But good news! They love a crowd, so your social calendar should always be full. If you keep a super-tidy home, may we recommend the Poodle? The Alaskan Malamute sheds a ridiculous amount twice a year. Life with an Alaskan Malamute is full of activity and adventures, and you wouldn’t have it any other way."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "1",
+        "type": "Entry",
+        "createdAt": "2023-06-30T19:58:02.145Z",
+        "updatedAt": "2023-07-05T05:06:29.923Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 7,
+        "publishedAt": "2023-07-05T05:06:29.923Z",
+        "firstPublishedAt": "2023-06-30T19:58:06.187Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Barbado da Terceira"
+        },
+        "goodWithChildren": {
+          "en-US": 4
+        },
+        "goodWithOtherDogs": {
+          "en-US": 3
+        },
+        "shedding": {
+          "en-US": 1
+        },
+        "grooming": {
+          "en-US": 0
+        },
+        "drooling": {
+          "en-US": 0
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 0
+        },
+        "playfulness": {
+          "en-US": 0
+        },
+        "protectiveness": {
+          "en-US": 0
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 5
+        },
+        "barking": {
+          "en-US": 5
+        },
+        "maxLifeExpentancy": {
+          "en-US": 14
+        },
+        "minLifeExpectancy": {
+          "en-US": 12
+        },
+        "maxHeightMale": {
+          "en-US": 22
+        },
+        "maxHeightFemale": {
+          "en-US": 22
+        },
+        "maxWeightMale": {
+          "en-US": 60
+        },
+        "maxWeightFemale": {
+          "en-US": 57
+        },
+        "minHeightMale": {
+          "en-US": 20.5
+        },
+        "minHeightFemale": {
+          "en-US": 20.5
+        },
+        "minWeightMale": {
+          "en-US": 55
+        },
+        "minWeightFemale": {
+          "en-US": 46
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/barbado_da_terceira.jpg"
+        },
+        "story": {
+          "en-US": "The Barbado da Terceira is a medium-sized herder that is a great companion and family dog. The breed is intelligent, easy to train, docile and willful, joyful, and sensitive. BDTs are athletic and need an experienced and loving owner."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "6rBBvWKLEd7tzQgvkNyRMb",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:01.554Z",
+        "updatedAt": "2023-07-05T05:11:39.812Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2023-07-05T05:11:39.812Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.540Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Brittany"
+        },
+        "goodWithChildren": {
+          "en-US": 4
+        },
+        "goodWithOtherDogs": {
+          "en-US": 4
+        },
+        "shedding": {
+          "en-US": 3
+        },
+        "grooming": {
+          "en-US": 3
+        },
+        "drooling": {
+          "en-US": 1
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 3
+        },
+        "playfulness": {
+          "en-US": 4
+        },
+        "protectiveness": {
+          "en-US": 3
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 5
+        },
+        "barking": {
+          "en-US": 3
+        },
+        "maxLifeExpentancy": {
+          "en-US": 14
+        },
+        "minLifeExpectancy": {
+          "en-US": 12
+        },
+        "maxHeightMale": {
+          "en-US": 20.5
+        },
+        "maxHeightFemale": {
+          "en-US": 20.5
+        },
+        "maxWeightMale": {
+          "en-US": 40
+        },
+        "maxWeightFemale": {
+          "en-US": 40
+        },
+        "minHeightMale": {
+          "en-US": 17.5
+        },
+        "minHeightFemale": {
+          "en-US": 17.5
+        },
+        "minWeightMale": {
+          "en-US": 30
+        },
+        "minWeightFemale": {
+          "en-US": 30
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/brittany.jpg"
+        },
+        "origin": {
+          "en-US": "Brittany Region, France"
+        },
+        "story": {
+          "en-US": "Sportsmen on both sides of the Atlantic cherish the agile, energetic Brittany as a stylish and versatile gundog. Bright and eager at home, and tireless afield, Brittanys require a lot of exercises, preferably with their favorite humans. Brittanys are smaller than setters but leggier than spaniels, standing about 20 inches at the shoulder. Their beautiful, boldly patterned coat comes in combinations of white and vivid orange and liver (reddish-brown). They are rugged and strong but smooth, clean, and quick afoot. The face has the 'softness' prized by bird-dog lovers; high-set ears convey the breed's essential eagerness. The zeal and versatility that make Brittanys peerless hunters can be channeled into dog sports. Obedience, agility, flyball, dock diving'¿you name it, this trainable breed is up for it. The Brittany is a nice fit for those seeking an all-purpose hunting partner, a dog-sport teammate, or a companion in sync with an upbeat, outdoorsy family life.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "3UtQ1xg5xLCysva6vkHYZp",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:01.560Z",
+        "updatedAt": "2023-07-05T05:11:02.352Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2023-07-05T05:11:02.352Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.447Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Chesapeake Bay Retriever"
+        },
+        "goodWithChildren": {
+          "en-US": 3
+        },
+        "goodWithOtherDogs": {
+          "en-US": 3
+        },
+        "shedding": {
+          "en-US": 3
+        },
+        "grooming": {
+          "en-US": 3
+        },
+        "drooling": {
+          "en-US": 2
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 3
+        },
+        "playfulness": {
+          "en-US": 3
+        },
+        "protectiveness": {
+          "en-US": 4
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 4
+        },
+        "barking": {
+          "en-US": 3
+        },
+        "maxLifeExpentancy": {
+          "en-US": 13
+        },
+        "minLifeExpectancy": {
+          "en-US": 10
+        },
+        "maxHeightMale": {
+          "en-US": 26
+        },
+        "maxHeightFemale": {
+          "en-US": 26
+        },
+        "maxWeightMale": {
+          "en-US": 80
+        },
+        "maxWeightFemale": {
+          "en-US": 70
+        },
+        "minHeightMale": {
+          "en-US": 23
+        },
+        "minHeightFemale": {
+          "en-US": 23
+        },
+        "minWeightMale": {
+          "en-US": 65
+        },
+        "minWeightFemale": {
+          "en-US": 55
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/chesapeake_bay_retriever.jpg"
+        },
+        "origin": {
+          "en-US": "Maryland and Virginia, United States"
+        },
+        "story": {
+          "en-US": "The Chesapeake Bay Retriever, peerless duck dog of the Mid-Atlantic, is an American original who embodies the classic traits of a good retriever: loyal, upbeat, affectionate, and tireless. The Chessie is famous for his waterproof coat. Chessies are strong, powerfully built gundogs standing anywhere from 21 to 26 inches at the shoulder. A male can weigh up to 80 pounds. The distinctive breed trait is a wavy coat that is oily to the touch. Chessies are solid-colored, either chocolatey brown, sedge, or deadgrass, with keen yellow-amber eyes that nicely complement the coat. Chessies are more emotionally complex than the usual gundog. Chessies take to training, but they have a mind of their own and can tenaciously pursue their own path. They are protective of their humans and polite, but not overtly friendly, to strangers. Chessies make excellent watchdogs and are versatile athletes. A well-socialized Chessie is a confident companion and world-class hunting buddy."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "35BXH7faShhH7BypTNT3lE",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:01.573Z",
+        "updatedAt": "2023-07-05T05:10:23.645Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-05T05:10:23.645Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.233Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Doberman Pinscher"
+        },
+        "goodWithChildren": {
+          "en-US": 5
+        },
+        "goodWithOtherDogs": {
+          "en-US": 3
+        },
+        "shedding": {
+          "en-US": 4
+        },
+        "grooming": {
+          "en-US": 1
+        },
+        "drooling": {
+          "en-US": 2
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 4
+        },
+        "playfulness": {
+          "en-US": 4
+        },
+        "protectiveness": {
+          "en-US": 5
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 5
+        },
+        "barking": {
+          "en-US": 3
+        },
+        "maxLifeExpentancy": {
+          "en-US": 12
+        },
+        "minLifeExpectancy": {
+          "en-US": 10
+        },
+        "maxHeightMale": {
+          "en-US": 28
+        },
+        "maxHeightFemale": {
+          "en-US": 28
+        },
+        "maxWeightMale": {
+          "en-US": 100
+        },
+        "maxWeightFemale": {
+          "en-US": 90
+        },
+        "minHeightMale": {
+          "en-US": 26
+        },
+        "minHeightFemale": {
+          "en-US": 26
+        },
+        "minWeightMale": {
+          "en-US": 75
+        },
+        "minWeightFemale": {
+          "en-US": 60
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/doberman_pinscher.jpg"
+        },
+        "origin": {
+          "en-US": "Apolda, Germany"
+        },
+        "story": {
+          "en-US": "Sleek and powerful, possessing both a magnificent physique and keen intelligence, the Doberman Pinscher is one of dogkind's noblemen. This incomparably fearless and vigilant breed stands proudly among the world's finest protection dogs. Dobermans are compactly built dogs'¿muscular, fast, and powerful'¿standing between 24 to 28 inches at the shoulder. The body is sleek but substantial, and is covered with a glistening coat of black, blue, red, or fawn, with rust markings. These elegant qualities, combined with a noble wedge-shaped head and an easy, athletic way of moving, have earned Dobermans a reputation as royalty in the canine kingdom. A well-conditioned Doberman on patrol will deter all but the most foolish intruder.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "2SJAliYtqC3kTesOxVkG54",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:02.510Z",
+        "updatedAt": "2023-07-05T05:09:50.826Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-05T05:09:50.826Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.102Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Drentsche Patrijshond"
+        },
+        "goodWithChildren": {
+          "en-US": 5
+        },
+        "goodWithOtherDogs": {
+          "en-US": 3
+        },
+        "shedding": {
+          "en-US": 3
+        },
+        "grooming": {
+          "en-US": 2
+        },
+        "drooling": {
+          "en-US": 2
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 4
+        },
+        "playfulness": {
+          "en-US": 3
+        },
+        "protectiveness": {
+          "en-US": 3
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 5
+        },
+        "barking": {
+          "en-US": 3
+        },
+        "maxLifeExpentancy": {
+          "en-US": 14
+        },
+        "minLifeExpectancy": {
+          "en-US": 11
+        },
+        "maxHeightMale": {
+          "en-US": 25
+        },
+        "maxHeightFemale": {
+          "en-US": 25
+        },
+        "maxWeightMale": {
+          "en-US": 73
+        },
+        "maxWeightFemale": {
+          "en-US": 73
+        },
+        "minHeightMale": {
+          "en-US": 21
+        },
+        "minHeightFemale": {
+          "en-US": 21
+        },
+        "minWeightMale": {
+          "en-US": 48
+        },
+        "minWeightFemale": {
+          "en-US": 48
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/drentsche_patrijshond.jpg"
+        },
+        "origin": {
+          "en-US": "Netherlands"
+        },
+        "story": {
+          "en-US": "This breed is pronounced da'rinse-ah puh'trice-hoon. The Drentsche Patrijshond, Drent for short, is not your typical continental pointer. For starters, the Drent has a tail and is nearly four hundred years old. The Drent was built by farmers for farmers. As a farm dog, Drents had to do it all: hunt feather and fur, keep the farm clear of vermin, cart dairy to the market and much more. The breed has maintained versatility from the beginning and are highly intelligent and adaptable. As such, training must be kept lively and interesting. Drents are used in all types of hunting, agility, tracking, dog sledding, and skijoring.\n\nThe breed developed from pointing dogs originating in Spain (Spioenen) and arrived in The Netherlands via France in the 16th Century. In The Netherlands, these dogs were referred to as Partridge dogs. In the Province of Drenthe, these Partridge dogs were bred among themselves and not mixed with foreign breeds, as occurred elsewhere. Throughout the Drent¿s history, the breed stood on three equally important pillars: versatile hunting dog, farmyard dog, and playmate to the children. It is fundamental to the Drent breed that he hunts all upland game and waterfowl, announces visitors to the home or farm (without showing aggression or fear), and is an excellent family companion."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "2jantk6LMYl3wIPr8n7Qsn",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:02.529Z",
+        "updatedAt": "2023-07-05T05:08:57.318Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 6,
+        "publishedAt": "2023-07-05T05:08:57.318Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.083Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 7,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Dogo Argentino"
+        },
+        "goodWithChildren": {
+          "en-US": 3
+        },
+        "goodWithOtherDogs": {
+          "en-US": 3
+        },
+        "shedding": {
+          "en-US": 4
+        },
+        "grooming": {
+          "en-US": 1
+        },
+        "drooling": {
+          "en-US": 3
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 4
+        },
+        "playfulness": {
+          "en-US": 4
+        },
+        "protectiveness": {
+          "en-US": 5
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 5
+        },
+        "barking": {
+          "en-US": 3
+        },
+        "maxLifeExpentancy": {
+          "en-US": 15
+        },
+        "minLifeExpectancy": {
+          "en-US": 9
+        },
+        "maxHeightMale": {
+          "en-US": 27
+        },
+        "maxHeightFemale": {
+          "en-US": 27
+        },
+        "maxWeightMale": {
+          "en-US": 100
+        },
+        "maxWeightFemale": {
+          "en-US": 100
+        },
+        "minHeightMale": {
+          "en-US": 24
+        },
+        "minHeightFemale": {
+          "en-US": 24
+        },
+        "minWeightMale": {
+          "en-US": 80
+        },
+        "minWeightFemale": {
+          "en-US": 80
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/dogo_argentino.jpg"
+        },
+        "origin": {
+          "en-US": "Córdoba, Argentina"
+        },
+        "story": {
+          "en-US": "The Dogo Argentino is a pack-hunting dog, bred for the pursuit of big-game such as wild boar and puma, and possesses the strength, intelligence and quick responsiveness of a serious athlete. His short, plain and smooth coat is completely white, but a dark patch near the eye is permitted as long as it doesn't cover more than 10% of the head. The ideal Dogo Argentino is a study in harmony. He is large, powerful, and athletic. His strong head is supported by a thick, but elegant neck that connects to a balanced body, which is sustained by straight, substantial forelegs and very muscular, medium-angulated hindquarters. The Dogo gives the impression of explosive power and energy. Developed to find, chase and catch dangerous game the Dogo must have a good nose, great lung capacity, and a powerful, yet agile, muscular build. His expression is alert and intelligent, with a marked hardness. The Dogo is instantly identifiable by his short, completely white coat.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "1c1VpCiilXqscmCpiFP2CZ",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:02.538Z",
+        "updatedAt": "2023-07-05T05:08:28.469Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-05T05:08:28.469Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.065Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Drever"
+        },
+        "goodWithChildren": {
+          "en-US": 5
+        },
+        "goodWithOtherDogs": {
+          "en-US": 5
+        },
+        "shedding": {
+          "en-US": 3
+        },
+        "grooming": {
+          "en-US": 1
+        },
+        "drooling": {
+          "en-US": 2
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 4
+        },
+        "playfulness": {
+          "en-US": 4
+        },
+        "protectiveness": {
+          "en-US": 3
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 4
+        },
+        "barking": {
+          "en-US": 4
+        },
+        "maxLifeExpentancy": {
+          "en-US": 15
+        },
+        "minLifeExpectancy": {
+          "en-US": 15
+        },
+        "maxHeightMale": {
+          "en-US": 15
+        },
+        "maxHeightFemale": {
+          "en-US": 15
+        },
+        "maxWeightMale": {
+          "en-US": 40
+        },
+        "maxWeightFemale": {
+          "en-US": 40
+        },
+        "minHeightMale": {
+          "en-US": 12
+        },
+        "minHeightFemale": {
+          "en-US": 12
+        },
+        "minWeightMale": {
+          "en-US": 35
+        },
+        "minWeightFemale": {
+          "en-US": 35
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/drever.jpg"
+        },
+        "origin": {
+          "en-US": "Sweden"
+        },
+        "story": {
+          "en-US": "The Drever is robust and strong rather than elegant and speedy. They have a proud carriage, well-developed muscles and agile appearance. Affectionate, playful, and sweet, the Drever gets along well with most other breeds and is great in groups. The Drever was developed in the early twentieth century in Sweden. Hunting deer was difficult due to terrain and herd locations so hunters soon realized the benefits of using this short-legged, long-bodied dog to drive the deer over long distances and rough terrain right to them. A keen and even-tempered hound, the Drever is never aggressive, nervous or shy. They are content in most living situations, but tend to be vocal when alerting or at play.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "MyhfPRkUg65AyWcy6aJzw",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:02.539Z",
+        "updatedAt": "2023-07-05T05:07:44.546Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-05T05:07:44.546Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.047Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Dutch Shepherd"
+        },
+        "goodWithChildren": {
+          "en-US": 3
+        },
+        "goodWithOtherDogs": {
+          "en-US": 3
+        },
+        "shedding": {
+          "en-US": 3
+        },
+        "grooming": {
+          "en-US": 2
+        },
+        "drooling": {
+          "en-US": 2
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 3
+        },
+        "playfulness": {
+          "en-US": 4
+        },
+        "protectiveness": {
+          "en-US": 5
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 5
+        },
+        "barking": {
+          "en-US": 2
+        },
+        "maxLifeExpentancy": {
+          "en-US": 14
+        },
+        "minLifeExpectancy": {
+          "en-US": 11
+        },
+        "maxHeightMale": {
+          "en-US": 24.5
+        },
+        "maxHeightFemale": {
+          "en-US": 24.5
+        },
+        "maxWeightMale": {
+          "en-US": 75
+        },
+        "maxWeightFemale": {
+          "en-US": 75
+        },
+        "minHeightMale": {
+          "en-US": 21.5
+        },
+        "minHeightFemale": {
+          "en-US": 21.5
+        },
+        "minWeightMale": {
+          "en-US": 42
+        },
+        "minWeightFemale": {
+          "en-US": 42
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/dutch_shepherd.jpg"
+        },
+        "origin": {
+          "en-US": "Netherlands"
+        },
+        "story": {
+          "en-US": "The Dutch Shepherd is a lively, athletic, alert and intelligent breed, and has retained its herding instinct for which it was originally developed. Having an independent nature, it can be slightly obstinate and have a mind of its own. Since its original duties were to keep flocks of sheep in a particular location, it is able to run all day, and that is reflected in its physique and structure. The Dutch Shepherd was discovered as a naturally occurring shepherd's dog living in rural areas. It was developed as an all-purpose farm dog, working originally as a farm guard, drover, and livestock dog. A well known dog fancier wrote about the Dutch Shepherd in 1910: \"...bearing a great resemblance to the wolf.\" Of course this is not entirely true, but it is another aspect that shows that the Dutch Shepherd still has many of the characteristics of its wild forebears. Although it is not a widely known breed, the Dutch Shepherd is a loyal companion and competent working dog used for obedience, dog sports, herding, tracking, search and rescue, and as a police dog.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "25dnUb6I9w6EPgV2ScY1lP",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:15:02.558Z",
+        "updatedAt": "2023-07-05T05:07:15.338Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-05T05:07:15.338Z",
+        "firstPublishedAt": "2023-06-30T20:15:43.018Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "dogBreed"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "English Springer Spaniel"
+        },
+        "goodWithChildren": {
+          "en-US": 3
+        },
+        "goodWithOtherDogs": {
+          "en-US": 4
+        },
+        "shedding": {
+          "en-US": 3
+        },
+        "grooming": {
+          "en-US": 2
+        },
+        "drooling": {
+          "en-US": 3
+        },
+        "coatLength": {
+          "en-US": 1
+        },
+        "goodWithStrangers": {
+          "en-US": 4
+        },
+        "playfulness": {
+          "en-US": 4
+        },
+        "protectiveness": {
+          "en-US": 3
+        },
+        "trainability": {
+          "en-US": 5
+        },
+        "energy": {
+          "en-US": 4
+        },
+        "barking": {
+          "en-US": 3
+        },
+        "maxLifeExpentancy": {
+          "en-US": 14
+        },
+        "minLifeExpectancy": {
+          "en-US": 12
+        },
+        "maxHeightMale": {
+          "en-US": 20
+        },
+        "maxHeightFemale": {
+          "en-US": 20
+        },
+        "maxWeightMale": {
+          "en-US": 50
+        },
+        "maxWeightFemale": {
+          "en-US": 40
+        },
+        "minHeightMale": {
+          "en-US": 20
+        },
+        "minHeightFemale": {
+          "en-US": 20
+        },
+        "minWeightMale": {
+          "en-US": 50
+        },
+        "minWeightFemale": {
+          "en-US": 40
+        },
+        "imageLink": {
+          "en-US": "https://api-ninjas.com/images/dogs/english_springer_spaniel.jpg"
+        },
+        "origin": {
+          "en-US": "England"
+        },
+        "story": {
+          "en-US": "The English Springer Spaniel is a sweet-faced, lovable bird dog of great energy, stamina, and brains. Sport hunters cherish the duality of working Springers: handsome, mannerly pets during the week, and trusty hunting buddies on weekends. Built for long days in the field, English Springer Spaniels are tough, muscular hunters standing 19 to 20 inches at the shoulder and weighing between 40 and 50 pounds. The double coat comes in several colors and patterns, the ears are long and lush, and the kindly, trusting expression of the eyes is a cherished hallmark of the breed. Springers move with a smooth, ground-covering stride. Bred to work closely with humans, Springers are highly trainable people-pleasers. They crave company and are miserable when neglected. Polite dogs, Springers are good with kids and their fellow mammals. They are eager to join in any family activity. Long walks, games of chase and fetch, and swimming are favorite pastimes of these rugged spaniels.\n"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "15jwOBqpxqSAOy2eOO4S0m",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:40:17.367Z",
+        "updatedAt": "2023-07-02T04:28:28.591Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-07-02T04:28:28.591Z",
+        "firstPublishedAt": "2023-06-30T20:40:18.271Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "person"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "John Doe"
+        },
+        "title": {
+          "en-US": "Web Developer"
+        },
+        "company": {
+          "en-US": "ACME"
+        },
+        "shortBio": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Research and recommendations for modern stack websites.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "email": {
+          "en-US": "john@doe.com"
+        },
+        "phone": {
+          "en-US": "0176 / 1234567"
+        },
+        "facebook": {
+          "en-US": "johndoe"
+        },
+        "twitter": {
+          "en-US": "johndoe"
+        },
+        "github": {
+          "en-US": "johndoe"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7orLdboQQowIUs22KAW4U"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "2PtC9h1YqIA6kaUaIsWEQ0",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:40:17.399Z",
+        "updatedAt": "2023-07-02T04:28:30.496Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-07-02T04:28:30.496Z",
+        "firstPublishedAt": "2023-06-30T20:40:20.138Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Static sites are great"
+        },
+        "slug": {
+          "en-US": "static-sites-are-great"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4NzwDSDlGECGIiokKomsyI"
+            }
+          }
+        },
+        "description": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Worry less about security, caching, and talking to the server. Static sites are the new thing.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "body": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The case for the static site generator",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "More and more developers are jumping on the \"go static train\", and rightfully so. Static pages are fast, lightweight, they scale well. They are more secure, and simple to maintain and they allow you to focus all your time and effort on the user interface. Often times, this dedication really shows.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "It just so happens that static site generators are mostly loved by developers, but not by the average Joe. They do not offer WYSIWYG, previewing on demo sites may take an update cycle, they are often based on markdown text files, and they require some knowledge of modern day repositories.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Moreover, when teams are collaborating, it can get complicated quickly. Has this article already been proof-read or reviewed? Is this input valid? Are user permissions available, e.g. for administering adding and removing team members? Can this article be published at a future date? How can a large repository of content be categorized, organized, and searched? All these requirements have previously been more or less solved within the admin area of your CMS. But of course with all the baggage that made you leave the appserver-app-database-in-one-big-blob stack in the first place.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Content APIs to the rescue",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "An alternative is decoupling the content management aspect from the system. And then replacing the maintenance prone server with a cloud based web service offering. Effectively, instead of your CMS of old, you move to a ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/r/knowledgebase/content-as-a-service/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Content Management as a Service (CMaaS)",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " world, with a content API to deliver all your content. That way, you get the all the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "http://www.digett.com/blog/01/16/2014/pairing-static-websites-cms"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "benefits of content management features",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " while still being able to embrace the static site generator mantra.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "It so happens that Contentful is offering just that kind of content API. A service that",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "from the ground up has been designed to be fast, scalable, secure, and offer high uptime, so that you don’t have to worry about maintenance ever again.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "offers a powerful editor and lots of flexibility in creating templates for your documents that your editors can reuse and combine, so that no developers resources are required in everyday writing and updating tasks.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "separates content from presentation, so you can reuse your content repository for any device platform your heart desires. That way, you can COPE (\"create once, publish everywhere\").",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "offers webhooks that you can use to rebuild your static site in a fully automated fashion every time your content is modified.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Extracted from the article ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/r/knowledgebase/contentful-api-cms-static-site-generators/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "CMS-functionality for static site generators",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". Read more about the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/tools/staticsitegenerators/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "static site generators supported by Contentful",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ".",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "15jwOBqpxqSAOy2eOO4S0m"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2017-05-16T00:00+02:00"
+        },
+        "tags": {
+          "en-US": [
+            "javascript",
+            "static-sites"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "3K9b0esdy0q0yGqgW2g6Ke",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:40:17.401Z",
+        "updatedAt": "2023-07-02T04:28:29.897Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-07-02T04:28:29.897Z",
+        "firstPublishedAt": "2023-06-30T20:40:19.466Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Hello world"
+        },
+        "slug": {
+          "en-US": "hello-world"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6Od9v3wzLOysiMum0Wkmme"
+            }
+          }
+        },
+        "description": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "body": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "These is your very first content with Contentful, pulled in JSON format using the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/references/content-delivery-api/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Content Delivery API",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Your first steps",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Building with Contentful is easy. First take a moment to get ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/r/knowledgebase/content-modelling-basics"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "the basics of content modelling",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", which you can set up in the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://app.contentful.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Contentful Web app",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ". Once you get that, feel free to drop by the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Documentation",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " to learn a bit more about how to build your app with Contentful, in particular the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/concepts/apis/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "API basics",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " and each one of our four APIs, as shown below.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Content Delivery API",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/references/content-delivery-api/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Content Delivery API",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (CDA), available at ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "value": "cdn.contentful.com",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Content Management API",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/references/content-management-api/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Content Management API",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (CMA), available at ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "value": "api.contentful.com",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Automatic imports from different CMSes like WordPress or Drupal.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Integration with other backend systems, such as an e-commerce shop.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Building custom editing experiences. We built the ",
+                            "nodeType": "text"
+                          },
+                          {
+                            "data": {
+                              "uri": "https://app.contentful.com/"
+                            },
+                            "content": [
+                              {
+                                "data": {
+                                },
+                                "marks": [
+                                ],
+                                "value": "Contentful Web app",
+                                "nodeType": "text"
+                              }
+                            ],
+                            "nodeType": "hyperlink"
+                          },
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": " on top of this API.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Preview API",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Content Preview API",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", available at ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "value": "preview.contentful.com",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Images API",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-3"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/developers/docs/concepts/apis/#images-api"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Images API",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", available at ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "code"
+                      }
+                    ],
+                    "value": "images.contentful.com",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "15jwOBqpxqSAOy2eOO4S0m"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2017-05-15T00:00+02:00"
+        },
+        "tags": {
+          "en-US": [
+            "general"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "31TNnjHlfaGUoMOwU0M2og",
+        "type": "Entry",
+        "createdAt": "2023-06-30T20:40:17.403Z",
+        "updatedAt": "2023-07-02T04:28:29.116Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2023-07-02T04:28:29.116Z",
+        "firstPublishedAt": "2023-06-30T20:40:18.907Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "automationTags": [
+        ],
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Automate with webhooks"
+        },
+        "slug": {
+          "en-US": "automate-with-webhooks"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4shwYI3POEGkw0Eg6kcyaQ"
+            }
+          }
+        },
+        "description": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "body": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "What are webhooks?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "How do I configure a webhook?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Go to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Why do I get an old version in the CDA?",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "As the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Extracted from the ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "https://www.contentful.com/faq/webhooks/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Webhooks FAQ",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ".",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "15jwOBqpxqSAOy2eOO4S0m"
+            }
+          }
+        },
+        "publishDate": {
+          "en-US": "2017-05-12T00:00+02:00"
+        },
+        "tags": {
+          "en-US": [
+            "javascript"
+          ]
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "7orLdboQQowIUs22KAW4U",
+        "type": "Asset",
+        "createdAt": "2023-06-30T20:40:09.124Z",
+        "updatedAt": "2023-07-02T04:28:25.225Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-02T04:28:25.225Z",
+        "firstPublishedAt": "2023-06-30T20:40:14.846Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sparkler"
+        },
+        "description": {
+          "en-US": "John with Sparkler"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/k4flm4b70f8s/7orLdboQQowIUs22KAW4U/b9ce65092157f01e8c1706232b0b03ec/matt-palmer-254999.jpg",
+            "details": {
+              "size": 2293094,
+              "image": {
+                "width": 3000,
+                "height": 2000
+              }
+            },
+            "fileName": "matt-palmer-254999.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "6Od9v3wzLOysiMum0Wkmme",
+        "type": "Asset",
+        "createdAt": "2023-06-30T20:40:09.187Z",
+        "updatedAt": "2023-07-02T04:28:25.883Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-02T04:28:25.883Z",
+        "firstPublishedAt": "2023-06-30T20:40:15.506Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Woman with black hat"
+        },
+        "description": {
+          "en-US": "Woman wearing a black hat"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/k4flm4b70f8s/6Od9v3wzLOysiMum0Wkmme/c1897db08b25969da3d8155374b32b4d/cameron-kirby-88711.jpg",
+            "details": {
+              "size": 7316629,
+              "image": {
+                "width": 3000,
+                "height": 2000
+              }
+            },
+            "fileName": "cameron-kirby-88711.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "4NzwDSDlGECGIiokKomsyI",
+        "type": "Asset",
+        "createdAt": "2023-06-30T20:40:09.197Z",
+        "updatedAt": "2023-07-02T04:28:26.467Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-02T04:28:26.467Z",
+        "firstPublishedAt": "2023-06-30T20:40:16.102Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "City"
+        },
+        "description": {
+          "en-US": "City pictured from the sky"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/k4flm4b70f8s/4NzwDSDlGECGIiokKomsyI/19171ac94cc19615278a693aa3d40a34/denys-nevozhai-100695.jpg",
+            "details": {
+              "size": 15736986,
+              "image": {
+                "width": 3992,
+                "height": 2992
+              }
+            },
+            "fileName": "denys-nevozhai-100695.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "id": "4shwYI3POEGkw0Eg6kcyaQ",
+        "type": "Asset",
+        "createdAt": "2023-06-30T20:40:09.758Z",
+        "updatedAt": "2023-07-02T04:28:27.193Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2023-07-02T04:28:27.193Z",
+        "firstPublishedAt": "2023-06-30T20:40:16.713Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Man in the fields"
+        },
+        "description": {
+          "en-US": "Tattooed man walking in a field"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/k4flm4b70f8s/4shwYI3POEGkw0Eg6kcyaQ/3671ae0db01374f25b0c303ff6a9f5a3/felix-russell-saw-112140.jpg",
+            "details": {
+              "size": 4539181,
+              "image": {
+                "width": 2500,
+                "height": 1667
+              }
+            },
+            "fileName": "felix-russell-saw-112140.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "U.S. English",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "4SABonhJsb7Dlx0GE7vFo7",
+        "version": 2,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "77f28557-5dd2-479b-9b83-30c8a55501bc"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "createdAt": "2023-06-30T02:42:06Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedAt": "2023-06-30T20:40:05Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Author",
+      "description": "Allows editing of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "create"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "4T1V18Z1mcpsoVgqarSw71",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "createdAt": "2023-06-30T02:42:06Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedAt": "2023-06-30T02:42:06Z"
+      }
+    },
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "4T2qgQwWVtSzBmiWTPnUuT",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "createdAt": "2023-06-30T02:42:06Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedAt": "2023-06-30T02:42:06Z"
+      }
+    },
+    {
+      "name": "Translator",
+      "description": "Allows editing of localized fields in the specified language",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "read"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": [
+            "update"
+          ],
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              },
+              {
+                "paths": [
+                  {
+                    "doc": "fields.%.%"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "4T2SIQM9rtBtVHdtard5HJ",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "k4flm4b70f8s"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "createdAt": "2023-06-30T02:42:06Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "69hCsJ59c0KN0hgJGLzuOy"
+          }
+        },
+        "updatedAt": "2023-06-30T02:42:06Z"
+      }
+    }
+  ]
+}
