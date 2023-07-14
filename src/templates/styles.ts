@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Image = styled.image`
+export const Image = styled.img`
 	width: 100%;
 	height: auto;
 	
@@ -13,6 +13,8 @@ export const Article = styled.article`
 	letter-spacing: -0.011em;
 	line-height: 1.75;
 	padding: 24px 24px calc(24px * 2);
+	background: #fefefe;
+	border-radius: 10px;
 
 	h2:first-of-type {
 		margin-top: 0;

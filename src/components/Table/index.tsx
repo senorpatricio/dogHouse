@@ -1,6 +1,5 @@
 import React from "react";
 import { StyledTable, THead, TBody, TFoot, TH, TR, TD } from "./styles";
-import { DogBreed } from "../../types/types";
 
 type TableProps = {
     children: any

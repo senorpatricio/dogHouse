@@ -1,15 +1,10 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
 import type { PageProps } from 'gatsby';
-
-// components
 import Layout from '../components/Layout';
-
-// styled components
 import * as S from './styles';
 import { Container } from '../components/UI/Container';
 
-// types
 import type { NextPrevious, DogBreed } from '../types/types';
 import { Table } from '../components/Table';
 
@@ -19,17 +14,11 @@ type GraphQLResult = {
 	previous?: { name: NextPrevious };
 };
 
-type RowProps = {
-	[key: string]: number
-}
 
 const DogBreedTemplate = ({ data, location }: PageProps<GraphQLResult>) => {
 	const breed = data.contentfulDogBreed;
-	console.log('breed', breed)
 	const { previous } = data;
 	const { next } = data;
-	console.log('previous: ', previous)
-	console.log('next: ', next)
 	
 	return (
 		<Layout location={location}>
@@ -37,9 +26,9 @@ const DogBreedTemplate = ({ data, location }: PageProps<GraphQLResult>) => {
 				<S.Article>
 					<S.Body>
 						<h2>Breed: {breed.name.name}</h2>
-						<S.Image><img src={breed.imageLink}/></S.Image>
+						<img src={breed.imageLink}/>
 						{breed.origin
-						? <p><h3>Origin:</h3> {breed.origin}</p> 
+						? <h3>Origin: <span>{breed.origin}</span></h3> 
 						: <p>Origin: Not available</p>
 						}
 						<p>{breed.story.story}</p>
@@ -52,12 +41,11 @@ const DogBreedTemplate = ({ data, location }: PageProps<GraphQLResult>) => {
 							</Table.Head>
 							<Table.Body>
 								
-							{  Object.entries(breed).map( (key, value ) => {
+							{  Object.entries(breed).map( (key ) => {
 									if(typeof key[1] === 'object' || typeof key[1] === 'string') {
 										return
 									} else {
-
-										return <Table.TR>
+										return <Table.TR key={key[0]}>
 											<Table.TD>{key[0]}</Table.TD>
 											<Table.TD>{key[1]}</Table.TD>
 										</Table.TR>

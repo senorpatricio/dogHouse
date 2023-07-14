@@ -8,7 +8,7 @@ const Navigation = () => (
 	<S.Nav role='navigation' aria-label='Main'>
 		<S.LogoLink to='/'>
 			<S.Logo />
-			<span>Gatsby Starter Contentful</span>
+			<span>Dog Breed Wikipedia</span>
 		</S.LogoLink>
 
 		<S.MenuList>

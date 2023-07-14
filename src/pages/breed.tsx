@@ -3,8 +3,7 @@ import { graphql } from 'gatsby';
 import type { PageProps } from 'gatsby';
 
 // components
-import ArticlePreview from '../components/ArticlePreview';
-import Hero from '../components/Hero';
+import ArticlePreview from '../components/CardGrid';
 import Layout from '../components/Layout';
 
 // types
@@ -21,7 +20,6 @@ const BreedIndex = ({ data, location }: PageProps<GraphQLResult>) => {
 
 	return (
 		<Layout location={location}>
-			<Hero title='Dogs!' />
 			<ArticlePreview breeds={breeds} />
 		</Layout>
 	);

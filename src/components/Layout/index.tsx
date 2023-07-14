@@ -6,7 +6,6 @@ import type { ReactNode } from 'react';
 import type { WindowLocation } from '@reach/router';
 
 // components
-import Footer from '../Footer';
 import Navigation from '../Navigation';
 
 // styled components
@@ -24,7 +23,6 @@ const Layout = ({ children, location }: LayoutProps) => (
 		<GlobalStyle />
 		<Navigation />
 		<main className='test'>{children}</main>
-		<Footer />
 	</ThemeProvider>
 );
 
